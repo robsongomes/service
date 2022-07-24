@@ -1,0 +1,516 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.3
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Sun Jul 24 11:52:33 2022
+
+# Variables
+
+# environment
+JAVA_HOME = /usr/lib/jvm/java-11-openjdk-amd64/
+# environment
+GDK_BACKEND = x11
+# environment
+LC_ALL = C
+# environment
+NO_AT_BRIDGE = 1
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+SSH_AGENT_LAUNCHER = gnome-keyring
+# environment
+SNAP_INSTANCE_KEY = 
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+LC_NAME = pt_BR.UTF-8
+# environment
+LC_NUMERIC = pt_BR.UTF-8
+# environment
+VSCODE_CWD = /home/robson
+# environment
+WINDOWPATH = 2
+# environment
+ZSH_CACHE_DIR = /home/robson/.oh-my-zsh/cache
+# environment
+LC_ADDRESS = pt_BR.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# environment
+ZPFX = /home/robson/.zinit/polaris
+# environment
+GOPATH = /home/robson/go
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+SNAP_INSTANCE_NAME = code
+# environment
+GDK_PIXBUF_MODULEDIR = /snap/code/102/usr/lib/x86_64-linux-gnu/gdk-pixbuf-2.0/2.10.0/loaders
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/robson/go/src/ardanlabs/service
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LSCOLORS = Gxfxcxdxbxegedabagacad
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+OLDPWD = /home/robson
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# automatic
+%F = $(notdir $%)
+# environment
+CONDA_PROMPT_MODIFIER = (base) 
+# environment
+VSCODE_CODE_CACHE_PATH = /home/robson/.config/Code/CachedData/3b889b090b5ad5793f524b5d1d39fda662b96a2a
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# environment
+KUBECONFIG = /home/robson/.kube/istio-cluster-config
+# environment
+PMSPEC = 0uUpiPsf
+# makefile
+CURDIR := /home/robson/go/src/ardanlabs/service
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'makefile', line 9)
+VERSION := 1.0
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+P9K_SSH = 0
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# environment
+CONDA_SHLVL = 1
+# environment
+SNAP_REEXEC = 
+# automatic
+@F = $(notdir $@)
+# environment
+ZSH = /home/robson/.oh-my-zsh
+# environment
+VSCODE_PID = 12501
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+CONDA_PYTHON_EXE = /home/robson/anaconda3/bin/python
+# environment
+SESSION_MANAGER = local/gondor:@/tmp/.ICE-unix/7360,unix/gondor:/tmp/.ICE-unix/7360
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# environment
+CONDA_PREFIX = /home/robson/anaconda3
+# makefile (from 'makefile', line 1)
+SHELL := /bin/bash
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=ibus
+# environment
+QT_QPA_PLATFORM = xcb
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+SNAP_COOKIE = 7useTapH3x3X0JPIwqMUYBmUFS1Pp3kWG_06V0ycVv_9gUYVSkAt
+# environment
+PATH = /usr/local/go/bin:/opt/maven/apache-maven-3.6.3/bin:/home/robson/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LC_MONETARY = pt_BR.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+SNAP_USER_COMMON = /home/robson/snap/code/common
+# environment
+LDLIBS = -lcrypt -lcs50 -lm
+# environment
+LC_TIME = pt_BR.UTF-8
+# environment
+SNAP = /snap/code/102
+# environment
+INVOCATION_ID = 1bb934c014234012ae15a0e1c5ee057a
+# environment
+SNAP_REVISION = 102
+# environment
+SNAP_REAL_HOME = /home/robson
+# environment
+USERNAME = robson
+# environment
+LC_TELEPHONE = pt_BR.UTF-8
+# automatic
+?F = $(notdir $?)
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+LESS = -R
+# environment
+DESKTOP_SESSION = ubuntu
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CONDA_DEFAULT_ENV = base
+# environment
+LOGNAME = robson
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /var/lib/snapd/desktop/applications/code_code.desktop
+# environment
+SNAP_ARCH = amd64
+# makefile
+.DEFAULT_GOAL := run
+# environment
+SYSTEMD_EXEC_PID = 7379
+# environment
+DISPLAY = :1
+# environment
+USER = robson
+# environment
+GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+DISABLE_WAYLAND = 1
+# environment
+SNAP_DATA = /var/snap/code/102
+# environment
+SNAP_CONTEXT = 7useTapH3x3X0JPIwqMUYBmUFS1Pp3kWG_06V0ycVv_9gUYVSkAt
+# environment
+MANAGERPID = 6955
+# environment
+LC_MEASUREMENT = pt_BR.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 68161
+# environment
+PAGER = less
+# environment
+_ = /snap/code/102/usr/share/code/code
+# environment
+LC_PAPER = pt_BR.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+CFLAGS = -fsanitize=signed-integer-overflow -fsanitize=undefined -ggdb3 -O0 -std=c11 -Wall -Werror -Wextra -Wno-sign-compare -Wno-unused-parameter -Wno-unused-variable -Wshadow
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GDK_PIXBUF_MODULE_FILE = /home/robson/snap/code/common/.cache/gdk-pixbuf-loaders.cache
+# environment
+_CE_M = 
+# environment
+LC_CTYPE = pt_BR.UTF-8
+# makefile (from 'makefile', line 24)
+KIND_CLUSTER := sales-starter-cluster
+# environment
+JOURNAL_STREAM = 8:59793
+# environment
+GOMODCACHE = /home/robson/go/pkg/mod
+# environment
+XDG_SESSION_CLASS = user
+# environment
+ANDROID_SDK = /opt/tools/Android/Sdk
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/robson
+# environment
+QT_IM_MODULE = ibus
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-0ab25f14-1.69.2-main.sock
+# environment
+SNAP_NAME = code
+# environment
+GSETTINGS_SCHEMA_DIR = /snap/code/102/usr/share/glib-2.0/schemas
+# environment
+IM_CONFIG_PHASE = 1
+# environment
+GOPROXY = https://proxy.golang.org,direct
+# default
+.RECIPEPREFIX := 
+ 
+# automatic
+<F = $(notdir $<)
+# environment
+SNAP_VERSION = 3b889b09
+# default
+SUFFIXES := 
+# environment
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
+# environment
+SNAP_COMMON = /var/snap/code/common
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
+# environment
+CC = clang
+# environment
+SNAP_USER_DATA = /home/robson/snap/code/102
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+CONDA_EXE = /home/robson/anaconda3/bin/conda
+# environment
+_CE_CONDA = 
+# environment
+GDMSESSION = ubuntu
+# environment
+LC_IDENTIFICATION = pt_BR.UTF-8
+# environment
+SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd/void
+# variable set hash-table stats:
+# Load=154/1024=15%, Rehash=0, Collisions=7/190=4%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66308, inode 1794245): 12 files, no impossibilities.
+
+# 12 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+sales-api:
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := sales-api
+# automatic
+# * := 
+# automatic
+# < := 
+# automatic
+# + := 
+# automatic
+# % := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# automatic
+# | := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=11/13=85%
+#  recipe to execute (from 'makefile', line 14):
+	docker build \
+		-f zarf/docker/dockerfile.sales-api \
+		-t sales-api-amd64:$(VERSION) \
+		--build-arg BUILD_REF=$(VERSION) \
+		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
+		.
+
+kind-status-sales:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 53):
+	kubectl get pods -o wide --watch
+
+kind-load:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 38):
+	cd zarf/k8s/kind/sales-pod; kustomize edit set image sales-api-image=sales-api-amd64:$(VERSION)
+	kind load docker-image sales-api-amd64:$(VERSION) --name $(KIND_CLUSTER)
+
+kind-update-apply: all kind-load kind-apply
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 69):
+	
+
+tidy:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 56):
+	go mod tidy
+	go mod vendor	
+
+kind-apply:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 27):
+	kustomize build zarf/k8s/kind/sales-pod | kubectl apply -f -
+
+kind-describe:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 33):
+	kubectl describe nodes
+	kubectl describe svc
+	kubectl describe pod -l app=sales	
+
+kind-status:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 48):
+	kubectl get nodes -o wide
+	kubectl get svc -o wide	
+	kubectl get pods -o wide --watch --all-namespaces
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+all: sales-api
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# variable set hash-table stats:
+# Load=0/32=0%, Rehash=0, Collisions=0/5=0%
+
+run:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 4):
+	go run main.go
+
+kind-up:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 60):
+	kind create cluster \
+		--image kindest/node:v1.21.1 \
+		--name $(KIND_CLUSTER) \
+		--config zarf/k8s/kind/kind-config.yaml
+	kubectl config set-context --current --namespace=sales-system
+
+kind-restart:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 45):
+	kubectl rollout restart deployment sales-pod 	
+
+# Not a target:
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-07-23 21:20:50.665111505
+#  File has been updated.
+#  Successfully updated.
+
+kind-logs:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 42):
+	kubectl logs -l app=sales --all-containers=true -f --tail=100
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+kind-update: all kind-load kind-restart
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+kind-down:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 30):
+	kind delete cluster --name $(KIND_CLUSTER)
+
+# files hash-table stats:
+# Load=18/1024=2%, Rehash=0, Collisions=1/38=3%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 31 / storage = 286 B / avg = 9 B
+# current buf: size = 8162 B / used = 286 B / count = 31 / avg = 9 B
+
+# strcache performance: lookups = 59 / hit rate = 47%
+# hash-table stats:
+# Load=31/8192=0%, Rehash=0, Collisions=2/59=3%
+# Finished Make data base on Sun Jul 24 11:52:33 2022
+
+ 
