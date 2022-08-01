@@ -17,6 +17,9 @@ run:
 
 VERSION := 1.0
 
+admin:
+	go run app/tooling/admin/main.go
+
 all: sales-api
 
 sales-api:
@@ -26,6 +29,18 @@ sales-api:
 		--build-arg BUILD_REF=$(VERSION) \
 		--build-arg BUILD_DATE=`date -u +"%Y-%m-%dT%H:%M:%SZ"` \
 		.
+
+# ==============================================================================
+# Running tests within the local computer
+
+test:
+	go test ./... -count=1
+	staticcheck -checks=all ./...
+
+
+tidy:
+	go mod tidy
+	go mod vendor
 
 # ==============================================================================
 # Running from within k8s/kind
@@ -59,11 +74,7 @@ kind-status:
 	kubectl get pods -o wide --watch --all-namespaces
 
 kind-status-sales:
-	kubectl get pods -o wide --watch
-
-tidy:
-	go mod tidy
-	go mod vendor	
+	kubectl get pods -o wide --watch	
 
 kind-up:
 	kind create cluster \

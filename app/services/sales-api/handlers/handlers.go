@@ -7,6 +7,7 @@ import (
 	"net/http/pprof"
 	"os"
 
+	"github.com/robsongomes/service/app/business/sys/auth"
 	"github.com/robsongomes/service/app/business/web/mid"
 	"github.com/robsongomes/service/app/services/sales-api/handlers/debug/checkgrp"
 	"github.com/robsongomes/service/app/services/sales-api/handlers/v1/testgrp"
@@ -54,6 +55,7 @@ func DebugMux(build string, log *zap.SugaredLogger) http.Handler {
 type APIMuxConfig struct {
 	Shutdown chan os.Signal
 	Log      *zap.SugaredLogger
+	Auth     *auth.Auth
 }
 
 // APIMux constructs a http.Handler with all application routes defined.
@@ -77,4 +79,5 @@ func v1(app *web.App, cfg APIMuxConfig) {
 		Log: cfg.Log,
 	}
 	app.Handle(http.MethodGet, version, "/test", tgh.Test)
+	app.Handle(http.MethodGet, version, "/testauth", tgh.Test, mid.Authenticate(cfg.Auth), mid.Authorize("ADMIN"))
 }
