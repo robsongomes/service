@@ -4,7 +4,7 @@ import (
 	"context"
 	"net/http"
 
-	"github.com/robsongomes/service/app/business/sys/metrics"
+	"github.com/robsongomes/service/business/sys/metrics"
 	"github.com/robsongomes/service/foundation/web"
 )
 

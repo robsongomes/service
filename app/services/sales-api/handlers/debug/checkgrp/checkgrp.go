@@ -8,7 +8,7 @@ import (
 	"time"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/robsongomes/service/app/business/sys/database"
+	"github.com/robsongomes/service/business/sys/database"
 	"go.uber.org/zap"
 )
 

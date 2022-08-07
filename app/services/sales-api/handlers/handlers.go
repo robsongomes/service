@@ -8,10 +8,10 @@ import (
 	"os"
 
 	"github.com/jmoiron/sqlx"
-	"github.com/robsongomes/service/app/business/sys/auth"
-	"github.com/robsongomes/service/app/business/web/mid"
 	"github.com/robsongomes/service/app/services/sales-api/handlers/debug/checkgrp"
 	"github.com/robsongomes/service/app/services/sales-api/handlers/v1/testgrp"
+	"github.com/robsongomes/service/business/sys/auth"
+	"github.com/robsongomes/service/business/web/mid"
 	"github.com/robsongomes/service/foundation/web"
 	"go.uber.org/zap"
 )

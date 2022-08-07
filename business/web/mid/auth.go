@@ -7,8 +7,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/robsongomes/service/app/business/sys/auth"
-	"github.com/robsongomes/service/app/business/sys/validate"
+	"github.com/robsongomes/service/business/sys/auth"
+	"github.com/robsongomes/service/business/sys/validate"
 	"github.com/robsongomes/service/foundation/web"
 )
 

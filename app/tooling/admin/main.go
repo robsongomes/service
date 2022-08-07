@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/robsongomes/service/app/business/data/schema"
-	"github.com/robsongomes/service/app/business/sys/database"
+	"github.com/robsongomes/service/business/data/schema"
+	"github.com/robsongomes/service/business/sys/database"
 )
 
 func main() {

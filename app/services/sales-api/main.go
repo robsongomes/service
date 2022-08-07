@@ -13,9 +13,9 @@ import (
 	"time"
 
 	"github.com/ardanlabs/conf/v3"
-	"github.com/robsongomes/service/app/business/sys/auth"
-	"github.com/robsongomes/service/app/business/sys/database"
 	"github.com/robsongomes/service/app/services/sales-api/handlers"
+	"github.com/robsongomes/service/business/sys/auth"
+	"github.com/robsongomes/service/business/sys/database"
 	"github.com/robsongomes/service/foundation/keystore"
 
 	"go.uber.org/automaxprocs/maxprocs"
