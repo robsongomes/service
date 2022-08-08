@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sun Aug  7 08:24:04 2022
+# Make data base, printed on Mon Aug  8 14:54:34 2022
 
 # Variables
 
@@ -119,7 +119,7 @@ SNAP_REEXEC =
 # environment
 ZSH = /home/robson/.oh-my-zsh
 # environment
-VSCODE_PID = 34674
+VSCODE_PID = 330087
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
@@ -129,7 +129,7 @@ BAMF_DESKTOP_FILE_HINT = /var/lib/snapd/desktop/applications/code_code.desktop
 # environment
 CONDA_PYTHON_EXE = /home/robson/anaconda3/bin/python
 # environment
-SESSION_MANAGER = local/gondor:@/tmp/.ICE-unix/7114,unix/gondor:/tmp/.ICE-unix/7114
+SESSION_MANAGER = local/gondor:@/tmp/.ICE-unix/9474,unix/gondor:/tmp/.ICE-unix/9474
 # automatic
 *F = $(notdir $*)
 # environment
@@ -181,7 +181,7 @@ LC_TIME = pt_BR.UTF-8
 # environment
 SNAP = /snap/code/103
 # environment
-INVOCATION_ID = 405a9151dd3e4d17ab261668dd5cac2b
+INVOCATION_ID = 08f622bbb7f2430c831bcaa8ce1192a2
 # environment
 SNAP_REVISION = 103
 # environment
@@ -217,7 +217,7 @@ SNAP_ARCH = amd64
 # makefile
 .DEFAULT_GOAL := run
 # environment
-SYSTEMD_EXEC_PID = 7198
+SYSTEMD_EXEC_PID = 9494
 # environment
 DISPLAY = :1
 # environment
@@ -233,11 +233,11 @@ SNAP_DATA = /var/snap/code/103
 # environment
 SNAP_CONTEXT = 7useTapH3x3X0JPIwqMUYBmUFS1Pp3kWG_06V0ycVv_9gUYVSkAt
 # environment
-MANAGERPID = 6375
+MANAGERPID = 9043
 # environment
 LC_MEASUREMENT = pt_BR.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 34632
+GIO_LAUNCHED_DESKTOP_FILE_PID = 330045
 # environment
 PAGER = less
 # environment
@@ -259,7 +259,7 @@ LC_CTYPE = pt_BR.UTF-8
 # makefile (from 'makefile', line 48)
 KIND_CLUSTER := sales-starter-cluster
 # environment
-JOURNAL_STREAM = 8:55108
+JOURNAL_STREAM = 8:69616
 # environment
 GOMODCACHE = /home/robson/go/pkg/mod
 # environment
@@ -298,11 +298,11 @@ VSCODE_CLI = 1
 ELECTRON_NO_ATTACH_CONSOLE = 1
 # environment
 SNAP_COMMON = /var/snap/code/common
+ 
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
 CC = clang
- 
 # environment
 SNAP_USER_DATA = /home/robson/snap/code/103
 # environment
@@ -326,9 +326,9 @@ SNAP_LIBRARY_PATH = /var/lib/snapd/lib/gl:/var/lib/snapd/lib/gl32:/var/lib/snapd
 
 # Directories
 
-# . (device 66308, inode 1794245): 12 files, no impossibilities.
+# . (device 66308, inode 1794245): 13 files, no impossibilities.
 
-# 12 files, no impossibilities in 1 directories.
+# 13 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
@@ -527,12 +527,12 @@ kind-down:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 34 / storage = 315 B / avg = 9 B
-# current buf: size = 8162 B / used = 315 B / count = 34 / avg = 9 B
+# strcache buffers: 1 (0) / strings = 35 / storage = 324 B / avg = 9 B
+# current buf: size = 8162 B / used = 324 B / count = 35 / avg = 9 B
 
-# strcache performance: lookups = 65 / hit rate = 47%
+# strcache performance: lookups = 66 / hit rate = 46%
 # hash-table stats:
-# Load=34/8192=0%, Rehash=0, Collisions=2/65=3%
-# Finished Make data base on Sun Aug  7 08:24:04 2022
+# Load=35/8192=0%, Rehash=0, Collisions=2/66=3%
+# Finished Make data base on Mon Aug  8 14:54:34 2022
 
  
