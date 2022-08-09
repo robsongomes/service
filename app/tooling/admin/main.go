@@ -18,19 +18,20 @@ import (
 )
 
 func main() {
-	err := Migrate()
+	getToken()
+	// err := Migrate()
 
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
+	// if err != nil {
+	// 	fmt.Println(err)
+	// 	os.Exit(1)
+	// }
 
-	err = Seed()
+	// err = Seed()
 
-	if err != nil {
-		fmt.Println(err)
-		os.Exit(1)
-	}
+	// if err != nil {
+	// 	fmt.Println(err)
+	// 	os.Exit(1)
+	// }
 }
 
 // Migrate creates the schema in the database.
@@ -133,7 +134,7 @@ func getToken() error {
 			ExpiresAt: time.Now().Add(8760 * time.Hour).Unix(),
 			IssuedAt:  time.Now().UTC().Unix(),
 		},
-		Roles: []string{"USER"},
+		Roles: []string{"ADMIN"},
 	}
 
 	token := jwt.NewWithClaims(jwt.SigningMethodRS256, claims)
