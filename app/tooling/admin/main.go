@@ -18,20 +18,19 @@ import (
 )
 
 func main() {
-	getToken()
-	// err := Migrate()
+	err := Migrate()
 
-	// if err != nil {
-	// 	fmt.Println(err)
-	// 	os.Exit(1)
-	// }
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
 
-	// err = Seed()
+	err = Seed()
 
-	// if err != nil {
-	// 	fmt.Println(err)
-	// 	os.Exit(1)
-	// }
+	if err != nil {
+		fmt.Println(err)
+		os.Exit(1)
+	}
 }
 
 // Migrate creates the schema in the database.
